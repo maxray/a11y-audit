@@ -18,10 +18,10 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Pa11y / audit outputs
-audit.json
-audit.csv
-pa11yci-generated.json
+# # Pa11y / audit outputs
+# audit.json
+# audit.csv
+# pa11yci-generated.json
 
 # Optional: screenshots if you add them later
 screenshots/
