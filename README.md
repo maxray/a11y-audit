@@ -21,7 +21,6 @@ A little toolkit for running automated accessibility audits using **Pa11y CI**, 
     - package.json
     - generate-pa11yci.js # crawler
     - convert-pa11y.js # JSON → CSV
-    - run-audit.js # full pipeline runner
     - README.md # documentation
 
 
@@ -47,7 +46,8 @@ This will install:
 
 Generate a list of URLs automatically:
 
-node generate-pa11yci.js https://example.com/
+npm run crawl https://example.com/
+
 
 **Output:**
 
@@ -66,11 +66,11 @@ node generate-pa11yci.js https://example.com/
 
 ### Step 2 — Run accessibility audit
 
-npx pa11y-ci --config pa11yci-generated.json --reporter json > audit.json
+npm run audit
 
 ### Step 3 — Convert JSON → CSV
 
-node convert-pa11y.js audit.json
+npm run convert
 
 **Output:**
 
@@ -81,13 +81,5 @@ Ready for Google Sheets or internal audit documentation
 
 ### Running on localhost
 
-Works exactly the same:
+Works exactly the same!
 
-node generate-pa11yci.js http://localhost:8000/
-npx pa11y-ci --config pa11yci-generated.json --reporter json > audit.json
-node convert-pa11y.js audit.json
-
-### Recommended Workflow
-npm run crawl https://example.com/
-npm run audit
-npm run convert
