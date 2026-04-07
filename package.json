@@ -1,0 +1,21 @@
+{
+  "name": "accessibility-audit-toolkit",
+  "version": "1.0.0",
+  "description": "Automated accessibility auditing using Pa11y CI",
+  "main": "index.js",
+  "scripts": {
+    "crawl": "node generate-pa11yci.js",
+    "audit": "npx pa11y-ci --config pa11yci-generated.json --reporter json > audit.json",
+    "convert": "node convert-pa11y.js audit.json"
+  },
+  "dependencies": {
+    "axios": "^1.14.0",
+    "cheerio": "^1.2.0"
+  },
+  "devDependencies": {
+    "pa11y-ci": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,39 @@
+{   
+    "defaults": {
+        "standard": "WCAG2A",
+        "ignore": []
+    },
+    "urls": [
+        "https://substrakt.com/#main-content",
+        "https://substrakt.com/",
+        "https://substrakt.com/about/",
+        "https://substrakt.com/our-work/",
+        "https://substrakt.com/our-services/",
+        "https://substrakt.com/events-resources/",
+        "https://substrakt.com/get-in-touch/",
+        "https://substrakt.com/about/careers/",
+        "https://substrakt.com/about/our-team/",
+        "https://substrakt.com/products/viadukt/",
+        "https://substrakt.com/services/consultancy/",
+        "https://substrakt.com/work/dulwich-picture-gallery/",
+        "https://substrakt.com/work/the-naples-players/",
+        "https://substrakt.com/work/vancouver-international-film-festival/",
+        "https://substrakt.com/work/trinity-laban/",
+        "https://substrakt.com/our-work/",
+        "https://substrakt.com/resources/benchmark-2025/",
+        "https://substrakt.com/#",
+        "https://substrakt.com/products/viadukt/",
+        "https://substrakt.com/products/showcase/",
+        "https://substrakt.com/products/quick-donate/",
+        "https://substrakt.com/events-resources/",
+        "https://substrakt.com/our-commitment-to-show-the-salary/",
+        "https://substrakt.com/inclusive-recruitment-at-substrakt/",
+        "https://substrakt.com/a-day-in-the-life/",
+        "https://substrakt.com/news/",
+        "https://substrakt.com/our-work/",
+        "https://substrakt.com/our-services/",
+        "https://substrakt.com/about/",
+        "https://substrakt.com/privacy-policy/"
+    ]
+    
+}
