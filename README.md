@@ -17,7 +17,6 @@ A little toolkit for running automated accessibility audits using **Pa11y CI**, 
 ## Project Structure
 
 
-- accessibility-audit
     - package.json
     - generate-pa11yci.js # crawler
     - convert-pa11y.js # JSON → CSV
