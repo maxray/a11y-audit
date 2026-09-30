@@ -74,7 +74,7 @@ async function crawl() {
         if (!link) return;
 
         try {
-          link = new URL(link, domain).href;
+          link = new URL(link, current).href;
 
           // ignore junk links
           if (ignorePatterns.some((p) => p.test(link))) return;
@@ -104,7 +104,7 @@ async function crawl() {
 
       if (status === 404) {
         console.warn(`Skipped 404: ${current}`);
-        return;
+        continue;
       }
 
       console.warn(`Failed to fetch ${current}: ${err.message}`);
